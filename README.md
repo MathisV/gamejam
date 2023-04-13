@@ -36,6 +36,7 @@ Durant la partie, il est possible de tomber sur des interrupteurs qui, une fois 
 Dans le cas où il est activé, le levier fait apparaître un pont couvrant le prochain trou présent sur le terrain. Cependant, il est tout à fait possible de ne pas l’utiliser et de continuer la course sans perdre.
 
   - Les obstacles mortels :
+ 
  Comme leur nom l’indiquent, ces obstacles font perdre le joueur. Les trous ou les tonneaux explosifs sont les seuls obstacles mortels.
 <p align="center">
   <img src="https://github.com/MathisV/gamejam/blob/main/images/obstacles_tnt.png">
