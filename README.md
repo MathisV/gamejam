@@ -5,6 +5,7 @@
 Nous sommes fiers de vous présenter notre jeu pour la Game Jam organisée par EFFICOM Lille le 12 avril 2023.
 
 **But du jeu :** 
+
 Dans Shiba ADVENTURE, le joueur incarne un personnage qui a pour objectif de parcourir le plus de distance possible sans mourir.
 <p align="center">
   <img src="https://github.com/MathisV/gamejam/blob/main/images/image.png" title="image en développement">
@@ -14,6 +15,7 @@ Dans Shiba ADVENTURE, le joueur incarne un personnage qui a pour objectif de par
 </p>
 
 **Les obstacles :** 
+
 Sur le parcours, il est possible de rencontrer divers obstacles ayant pour objectif de :
 
   - Ralentir le joueur
