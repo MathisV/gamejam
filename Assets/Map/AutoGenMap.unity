@@ -386,7 +386,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.255
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -991,7 +991,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470274160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.56, y: 2.87, z: 0.8719959}
+  m_LocalPosition: {x: -23.51, y: 9.33, z: 0.8719959}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1233,7 +1233,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -15.51982, y: 3.5157251}
+  m_Offset: {x: -15.51982, y: 4.2847543}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1244,7 +1244,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 25.446672, y: 3.8739529}
+  m_Size: {x: 25.446672, y: 2.3358946}
   m_EdgeRadius: 0
 --- !u!61 &1103900327
 BoxCollider2D:
@@ -1259,7 +1259,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -26.343931, y: -3.380293}
+  m_Offset: {x: -26.343931, y: -2.6838136}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1270,7 +1270,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.072994, y: 10.218979}
+  m_Size: {x: 4.072994, y: 11.6119375}
   m_EdgeRadius: 0
 --- !u!114 &1103900328
 MonoBehaviour:
@@ -1326,11 +1326,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacles:
-  - {fileID: 7219150981825969599, guid: 286f4233d400d5c4eb7cdc211c072ad4, type: 3}
-  - {fileID: 3534444215082954062, guid: f7f4bebfdf5f7224d83addd6f141697d, type: 3}
-  - {fileID: 7876908192010601137, guid: 118e8d96374fab6409b5b59f82ec449c, type: 3}
-  - {fileID: 5317579648710157414, guid: a27444ce9e135fe4499af9140c1531d0, type: 3}
   - {fileID: 531662015969074665, guid: 7183f4ddfeb1843999f348314e6d2b3b, type: 3}
+  - {fileID: 5317579648710157414, guid: a27444ce9e135fe4499af9140c1531d0, type: 3}
+  - {fileID: 5317579648710157414, guid: a27444ce9e135fe4499af9140c1531d0, type: 3}
+  - {fileID: 7876908192010601137, guid: 118e8d96374fab6409b5b59f82ec449c, type: 3}
+  - {fileID: 7876908192010601137, guid: 118e8d96374fab6409b5b59f82ec449c, type: 3}
+  - {fileID: 3534444215082954062, guid: f7f4bebfdf5f7224d83addd6f141697d, type: 3}
+  - {fileID: 3534444215082954062, guid: f7f4bebfdf5f7224d83addd6f141697d, type: 3}
+  - {fileID: 7219150981825969599, guid: 286f4233d400d5c4eb7cdc211c072ad4, type: 3}
+  - {fileID: 7219150981825969599, guid: 286f4233d400d5c4eb7cdc211c072ad4, type: 3}
   player: {fileID: 2044254764}
   minSpawnTime: 1
   maxSpawnTime: 8

@@ -74,6 +74,12 @@ public class UIController : MonoBehaviour
 
     public void restartGame()
     {
+        // for each deletable tag delete 
+        GameObject[] deletableObjects = GameObject.FindGameObjectsWithTag("Deletable");
+        foreach (GameObject deletableObject in deletableObjects)
+        {
+            Destroy(deletableObject);
+        }
         gameOverPanel.SetActive(false);
         player.isDead = false;
         transform.position =
