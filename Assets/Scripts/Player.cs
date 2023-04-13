@@ -12,11 +12,15 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public Animator anim;
+
     private bool isGrounded;
 
-    private float groundCheckRadius = 0.2f;
+    private float groundCheckRadius = 0.5f;
 
     public Transform groundCheckPoint;
+
+    public bool isDead = false;
 
     void Start()
     {
@@ -25,21 +29,39 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        isGrounded =
-            Physics2D
-                .OverlapCircle(groundCheckPoint.position,
-                groundCheckRadius,
-                groundLayer);
-
-        if (Input.GetKeyDown(jumpKey) && isGrounded)
+        if (!isDead)
         {
-            Jump();
+            isGrounded =
+                Physics2D
+                    .OverlapCircle(groundCheckPoint.position,
+                    groundCheckRadius,
+                    groundLayer);
+
+            anim.SetBool("isGrounded", isGrounded);
+
+            if (Input.GetKeyDown(jumpKey) && isGrounded)
+            {
+                anim.SetBool("isGrounded", false);
+                foreach (SwitchController
+                    switchController
+                    in
+                    FindObjectsOfType<SwitchController>()
+                )
+                {
+                    if (switchController.isNearPlayer())
+                    {
+                        switchController.ActivateSwitch();
+                        break;
+                    }
+                }
+                Jump();
+            }
         }
     }
 
     void FixedUpdate()
     {
-        Move();
+        if (!isDead) Move();
     }
 
     void Jump()
