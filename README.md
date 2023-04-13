@@ -6,9 +6,7 @@ Nous sommes fiers de vous présenter notre jeu pour la Game Jam organisée par E
 
 **But du jeu :** 
 Dans Shiba ADVENTURE, le joueur incarne un personnage qui a pour objectif de parcourir le plus de distance possible sans mourir.
-<p align="left">
-  <img src="https://github.com/MathisV/gamejam/blob/main/images/image.png" title="image en développement">
-</p>
 <p align="center">
+  <img src="https://github.com/MathisV/gamejam/blob/main/images/image.png" title="image en développement">
   *Capture d’écran du jeu en cours de développement*
- </p>
+</p>
