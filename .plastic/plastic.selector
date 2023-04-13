@@ -1,0 +1,4 @@
+repository "OneClickAdventure@OneClickAdventure@cloud"
+  path "/"
+    smartbranch "/main"                                    
+     
